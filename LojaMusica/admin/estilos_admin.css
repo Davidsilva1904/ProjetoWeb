@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 80%;
+    padding: 2% 10%;
+    background-color: #000;
+    color: #fff;
+}
+
+#logotipo {
+    width: 40%;
+    float: left;
+    font-size: 1.2em;
+    font-family: Jazz LET, fantasy;
+}
+
+#account {
+    width: 50%;
+    font-size: 1em;
+    float: right;
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#account a {
+    color: #fff;
+    font-family: Jazz LET, fantasy;
+}
+
+.limpa {
+    clear: both;
+}
+
+nav {
+    width: 80%;
+    padding: 1% 10%;
+    background-color: #999;
+    color: #333;
+    text-align: center;
+    font-family: Jazz LET, fantasy;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 5%;
+}
+
+nav ul li:last-child {
+    margin-right: 0%;
+}
+
+nav ul li a {
+    color: #333;
+}
+
+main {
+    width: 80%;
+    padding: 2% 10%;
+    background-color: #fff;
+    color: #333;
+}
+
+footer {
+    width: 80%;
+    padding: 1% 10%;
+    font-size: 0.8em;
+    text-align: center;
+    color: #333;
+    background-color: #999;
+    font-family: Jazz LET, fantasy;
+}
+
+/* - Dados Administrativos */
+
+ 
+.del_bt{ background-color: red; color: #fff; padding:5%; border:0;}
+.edit_bt{ background-color: orange; color: #fff; padding:5%; border:0;}
+.add_bt{ background-color: green; color: #fff; padding:2%; border:0;}
+.edit_bt:hover, .add_bt:hover{cursor: pointer;}
+
+ 
+
+.top_info{
+    width: 100%; 
+    margin-bottom: 1%; 
+    display: table;
+}
+.top_info_titulo{
+    display: table-cell;
+    width: 50%;
+    text-align: left;
+    font-size: 1.2em;
+    font-family: Jazz LET, fantasy;
+}
+.top_info_opt{
+    display: table-cell;
+    width: 50%; 
+    text-align: right;
+}
+
+ 
+
+.adm_content{
+    width: 100%; 
+    margin-bottom: 1%;
+    text-align: center;
+}
+.table_head{
+    width: 100%;
+}
+.table_head th:first-child{ width: 5%; }
+.table_head th{ width: 17%; }
+.adm_content table{ width: 100%; }
+.adm_content table tr{ min-height: 40px;}
+.adm_content table tr td:first-child{ width: 5%; }
+.adm_content table tr td{ text-align: left; width: 17%;}
+.adm_content table tr td:last-child{ text-align: left; }
+
+.adm_content table tr td img{
+    width: 50%;
+}
